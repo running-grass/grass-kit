@@ -4,6 +4,18 @@
 
 @layer components {
   .btn {
-    @apply pt-1 pb-1 pl-4 pr-4 text-purple-300 bg-slate-700;
+    @apply pt-1 pb-1 pl-4 pr-4;
+    @apply bg-slate-50 text-gray-900;
+    @apply inline-block;
+    @apply rounded;
+    @apply h-auto w-auto;
+    @apply text-base;
+    @apply border-2 border-gray-300;
+
+    @apply cursor-pointer select-none;
+  }
+
+  .btn__primary {
+    @apply text-purple-300 bg-slate-700 border-slate-700;
   }
 }
