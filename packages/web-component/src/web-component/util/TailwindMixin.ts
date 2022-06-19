@@ -2,6 +2,8 @@ import { adoptStyles, LitElement, unsafeCSS } from 'lit'
 
 import style from '../../styles/tailwind.global.css' 
 
+console.log(style)
+
 type LitMixin<T = unknown> = new (...args: any[]) => T & LitElement;
 
 const stylesheet = unsafeCSS(style)

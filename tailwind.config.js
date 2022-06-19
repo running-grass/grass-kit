@@ -1,11 +1,8 @@
 module.exports = {
-  content: [
-    'src/**/*.{ts,html}',
+  presets: [
+    require('./package/taillwind/src/index'),
   ],
   theme: {
-    container: {
-      center: true,
-    },
     extend: {},
   },
   plugins: [],

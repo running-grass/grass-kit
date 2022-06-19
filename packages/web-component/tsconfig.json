@@ -5,6 +5,9 @@
     "moduleResolution": "node",
     "allowSyntheticDefaultImports": true,
     "experimentalDecorators": true,
-    "useDefineForClassFields": false
-  }
+    "useDefineForClassFields": false,
+    "typeRoots": ["src/@types"],
+    "baseUrl": "src"
+  },
+  "include": ["src"]
 }
