@@ -7,14 +7,14 @@ export default {
 const Template = ({ primary, label }) =>
   html`<x-button ?primary=${primary} .label=${label}></x-button>`;
 
-export const 基础 = Template.bind({});
-基础.args = {
+export const 默认按钮 = Template.bind({});
+默认按钮.args = {
   primary: false,
-  label: '基础按钮',
+  label: '默认按钮',
 }
 
-export const Primary = Template.bind({});
-Primary.args = {
+export const 主要按钮 = Template.bind({});
+主要按钮.args = {
   primary: true,
-  label: 'Button',
+  label: '主要按钮',
 };

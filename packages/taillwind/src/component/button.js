@@ -1,12 +1,13 @@
 module.exports = () => ({
   ".btn" : {
-    "@apply inline-block rounded h-auto w-auto bg-slate-50": {},
-    "@apply pt-1 pb-1 pl-4 pr-4": {},
-    "@apply text-base text-gray-900": {},
+    "@apply inline-block h-auto w-auto mx-auto rounded": {},
+    "@apply py-2 px-5": {},
+    "@apply text-base text-gray-600": {},
     "@apply cursor-pointer select-none": {},
-    "@apply border-2 border-gray-300": {},
+    "@apply border-0 bg-indigo-100": {},
+    "@apply focus:outline-none hover:bg-indigo-200": {},
   },
   ".btn__primary": {
-    "@apply text-purple-300 bg-slate-700 border-slate-700": {},
+    "@apply text-white bg-indigo-500 hover:bg-indigo-600": {},
   }
 })

@@ -13,9 +13,14 @@ export class Button extends TwLitElement {
   /**
    * 按钮文字
    */
-  @property({
-  })
+  @property({type: String})
   label: string
+
+  // onClick(e: Event) {
+  //   console.log(e)
+  // }
+  // @click="${this.onClick}"
+
 
   render() {
     return html`<div 
