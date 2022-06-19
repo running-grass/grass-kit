@@ -3,6 +3,6 @@ module.exports = {
     require("@x-style/tailwind")
   ],
   content: [
-    'src/**/*.{ts,html}',
+    './src/**/*.{ts,html}',
   ],
 }

@@ -4,20 +4,22 @@ import { TwLitElement } from "../common/TwLitElement";
 
 @customElement("x-button")
 export class Button extends TwLitElement {
+  /**
+   * 是否为主要按钮
+   */
   @property({type: Boolean})
   primary: boolean
 
-  @property()
+  /**
+   * 按钮文字
+   */
+  @property({
+  })
   label: string
-
-  onClick() {
-    console.log("您点击了按钮")
-  }
 
   render() {
     return html`<div 
     class="btn ${this.primary ? "btn__primary" : null}"
-    @click="${this.onClick}"
     >${this.label || "按钮"}</div> `;
   }
 }

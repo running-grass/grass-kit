@@ -1,1 +1,1 @@
-export * from './stories/Button.jsx'
+export * from './components/Button'
