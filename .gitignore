@@ -1,4 +1,3 @@
 node_modules
-yarn-error.log
+*.log
 dist
-.pnpm-debug.log

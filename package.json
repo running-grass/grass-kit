@@ -1,7 +1,8 @@
 {
   "private": true,
   "engines": {
-    "node": ">=16"
+    "node": ">=16",
+    "pnpm": ">=7"
   },
   "scripts": {
     "bootstrap": "lerna bootstrap --npm-client=pnpm"

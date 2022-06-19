@@ -1,7 +1,7 @@
 {
   "name": "@x-style/tailwind",
   "private": true,
-  "main": "src/index.ts",
+  "main": "src/index.js",
   "version": "0.0.0",
   "scripts": {
     "serve": "live-server ./dev",

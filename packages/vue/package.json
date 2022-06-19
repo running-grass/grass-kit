@@ -1,22 +1,29 @@
 {
-  "name": "@x-style/web-component",
+  "name": "@x-style/vue",
   "private": true,
-  "main": "index.js",
   "version": "0.0.0",
   "scripts": {
-    "dev": "vite dev",
-    "start": "vite --host",
-    "build": "vite build",
-    "lint": "eslint src --fix",
+    "dev": "vite",
+    "build": "vue-tsc --noEmit && vite build",
+    "preview": "vite preview",
     "storybook": "start-storybook -p 6004",
     "build-storybook": "build-storybook"
   },
+  "dependencies": {
+    "@mdx-js/react": "^2.1.2",
+    "@storybook/client-api": "^6.5.9",
+    "@storybook/preview-web": "^6.5.9",
+    "react": "^18.2.0",
+    "@x-style/tailwind": "*",
+    "vue": "^3.2.25"
+  },
   "devDependencies": {
-    "@mdx-js/react": "^2.1.1",
+    "@babel/core": "^7.18.5",
     "@storybook/addon-actions": "^6.5.9",
     "@storybook/addon-backgrounds": "^6.5.9",
     "@storybook/addon-docs": "^6.5.9",
     "@storybook/addon-essentials": "^6.5.9",
+    "@storybook/addon-interactions": "^6.5.9",
     "@storybook/addon-links": "^6.5.9",
     "@storybook/addon-measure": "^6.5.9",
     "@storybook/addon-outline": "^6.5.9",
@@ -28,18 +35,13 @@
     "@storybook/core-common": "^6.5.9",
     "@storybook/node-logger": "^6.5.9",
     "@storybook/preview-web": "^6.5.9",
-    "@storybook/web-components": "^6.5.9",
-    "eslint": "^8.8.0",
-    "eslint-config-galex": "^3.6.3"
-  },
-  "dependencies": {
-    "autoprefixer": "^10.4.2",
-    "@x-style/tailwind": "*",
-    "lit": "^2.1.2",
-    "lit-html": "^2.2.6",
-    "react": "^16.0.0",
-    "tailwindcss": "^3.0.18",
-    "typescript": "^4.5.5",
-    "vite": "^2.9.12"
+    "@storybook/testing-library": "^0.0.13",
+    "@storybook/vue3": "^6.5.9",
+    "@vitejs/plugin-vue": "^2.3.3",
+    "babel-loader": "^8.2.5",
+    "typescript": "^4.7.4",
+    "vite": "^2.9.9",
+    "vue-loader": "^16.8.3",
+    "vue-tsc": "^0.34.7"
   }
 }
