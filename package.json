@@ -5,7 +5,8 @@
     "pnpm": ">=7"
   },
   "scripts": {
-    "bootstrap": "lerna bootstrap --npm-client=pnpm"
+    "bootstrap": "lerna bootstrap --npm-client=pnpm",
+    "publish": "lerna publish --npm-client=pnpm"
   },
   "dependencies": {
     "lerna": "^5.1.4"
