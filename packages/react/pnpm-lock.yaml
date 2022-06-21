@@ -3,7 +3,7 @@ lockfileVersion: 5.4
 specifiers:
   '@babel/core': ^7.18.5
   '@grass-ui/tailwind': '*'
-  '@grass-ui/web-component': ^0.0.1-alpha.1
+  '@grass-ui/web-component': '*'
   '@lit-labs/react': ^1.0.5
   '@mdx-js/react': ^2.1.2
   '@storybook/addon-actions': ^6.5.9
@@ -34,8 +34,8 @@ specifiers:
   vite: ^2.9.12
 
 dependencies:
-  '@grass-ui/tailwind': 0.0.1-alpha.1_tailwindcss@3.1.3
-  '@grass-ui/web-component': 0.0.1-alpha.1
+  '@grass-ui/tailwind': 0.0.1-alpha.3_tailwindcss@3.1.3
+  '@grass-ui/web-component': 0.0.1-alpha.3
   '@lit-labs/react': 1.0.5
   '@vitejs/plugin-react': 1.3.2
   autoprefixer: 10.4.7
@@ -1543,18 +1543,18 @@ packages:
     resolution: {integrity: sha512-k2Ty1JcVojjJFwrg/ThKi2ujJ7XNLYaFGNB/bWT9wGR+oSMJHMa5w+CUq6p/pVrKeNNgA7pCqEcjSnHVoqJQFw==}
     dev: true
 
-  /@grass-ui/tailwind/0.0.1-alpha.1_tailwindcss@3.1.3:
-    resolution: {integrity: sha512-pJmgRGl2oHJtFWovxfnnWkD6GEN2Wr9RKo9XkEsdkJD/GQcqtUewAfxE9pAqmLaMMRl2xv3/NOw06TfS9aD4qw==, tarball: download/@grass-ui/tailwind/0.0.1-alpha.1/cad5d1fcb4cd308436d9ad53a55476333660e42b2d362b91d621a6d3baf18eba}
+  /@grass-ui/tailwind/0.0.1-alpha.3_tailwindcss@3.1.3:
+    resolution: {integrity: sha512-AL6jA8lULwe4v0aRjHGutqwPJOej3a81CDPmwQ0vMxhRYm3jXAhVy4dVfOBbRPhFRCaxgtE5nrD6FkmbSBh6Yw==, tarball: download/@grass-ui/tailwind/0.0.1-alpha.3/2d1897b9917d43c9fc52ccc6eb1159c05b532f78b2b39bc28ffff8c52e56b7a0}
     peerDependencies:
       tailwindcss: '>=3.0.0'
     dependencies:
       tailwindcss: 3.1.3
     dev: false
 
-  /@grass-ui/web-component/0.0.1-alpha.1:
-    resolution: {integrity: sha512-Vm6RJZlbk6sEfDUv/lFLOWG1CZ53ErzOwi51mxXE1i+E/sYTca6T6LzW+PKmlcHATPMdPsLHpZXnChul9iM4mA==, tarball: download/@grass-ui/web-component/0.0.1-alpha.1/4a2cd77639bc7d0f752557da2d59bbd6692195309e85dc5354de918d5388afcb}
+  /@grass-ui/web-component/0.0.1-alpha.3:
+    resolution: {integrity: sha512-AQikJo1uWoT38zgc4bEDghIpKX5GmXpFQ4Gz3HaZL5SGDiQFdmD9QHuexmzHn5HV4Nt0LU30lbdczoVZiybYVA==, tarball: download/@grass-ui/web-component/0.0.1-alpha.3/0f334bb96f248e5b93e43c7e13bbc6d2dab85ab906efd06ca42dd457a4abd3af}
     dependencies:
-      '@grass-ui/tailwind': 0.0.1-alpha.1_tailwindcss@3.1.3
+      '@grass-ui/tailwind': 0.0.1-alpha.3_tailwindcss@3.1.3
       autoprefixer: 10.4.7
       lit: 2.2.6
       lit-html: 2.2.6

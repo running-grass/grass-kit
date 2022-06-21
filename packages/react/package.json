@@ -19,7 +19,7 @@
   "author": "",
   "dependencies": {
     "@grass-ui/tailwind": "*",
-    "@grass-ui/web-component": "^0.0.1-alpha.3",
+    "@grass-ui/web-component": "*",
     "@lit-labs/react": "^1.0.5",
     "@vitejs/plugin-react": "^1.3.2",
     "autoprefixer": "^10.4.7",

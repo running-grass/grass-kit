@@ -1,25 +1,35 @@
-# grass-ui
-一个基于vite、lit、tailwindcss的脚手架
+# Grass UI
+一个基于`tailwindcss`的全框架UI库
 
-## 使用方法
-```bash
-pnpm i 
-pnpm run dev
-```
+## 愿景
+1. 写一套样式和组件逻辑直接供vue，react，preact，原生html使用。
+2. 统一一套主题配置可以应用在不同前端框架下
+3. 在不同的框架下提供统一或相近的api
 
-## 难点
-由于lit使用的是shadowDOM，样式是隔离的，所以默认不能使用tailwindcss的样式类
+## 实现
+1. 样式、主题基于tailwind来统一，在业务方使用tailwind.config.js来配置主题，
+2. 组件的状态管理和事件系统靠web components来统一
+3. vue，react, preact等框架下的库为对lit-element的封装和优化
 
-## 实现逻辑
-~~继承`LitElement`类，在`connectedCallback`的生命周期中 把全局的`link` style标签复制到shadowDOM中。 且可以做到自动精简未使用的样式。~~
-底层使用了`constructible stylesheets`， 具体使用了lit-element的`unsafeCss`和`adoptStyles`来完成。
-同时支持@layer component和@apply
+## 组件
 
-## 不足之处
-1. 更改全局的css文件后，HMR不工作，需要手动刷新
-2. 复制link标签对性能会有影响，后期考虑换成`constructible stylesheets`
+### 按钮
 
+#### 样式变体
 
-## 代替方案
-1. twind 采用`constructible stylesheets`的方案，和tailwind兼容，在运行时构建样式表
-2. Lit不使用ShadowDOM。但是这样slot就不能用了
+- 普通的
+- 主要的
+
+### 支持的框架
+
+- [x] web component
+- [] vue 
+- [x] react
+
+### 开关
+
+### 支持的框架
+
+- [x] web component
+- [ ] vue 
+- [ ] react
