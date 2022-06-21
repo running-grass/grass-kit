@@ -4,6 +4,9 @@
   "description": "",
   "main": "index.js",
   "repository": "https://github.com/grass-ui/grass-ui",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
   "scripts": {
     "dev": "vite dev",
     "start": "vite --host",
@@ -49,5 +52,5 @@
     "babel-loader": "^8.2.5",
     "react-dom": "^18.2.0"
   },
-  "gitHead": "49f069f73d8618a6ce0aac327672f2f0bcf0613f"
+  "gitHead": "b7d67290a7ea50eaf994c3333737d02e3d2f8a30"
 }

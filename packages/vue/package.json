@@ -2,6 +2,9 @@
   "name": "@grass-ui/vue",
   "version": "0.0.1-alpha.2",
   "repository": "https://github.com/grass-ui/grass-ui",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc --noEmit && vite build",
@@ -43,5 +46,6 @@
     "vite": "^2.9.9",
     "vue-loader": "^16.8.3",
     "vue-tsc": "^0.34.7"
-  }
+  },
+  "gitHead": "b7d67290a7ea50eaf994c3333737d02e3d2f8a30"
 }
