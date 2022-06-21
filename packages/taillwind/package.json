@@ -6,7 +6,7 @@
   "publishConfig": {
     "registry":"https://npm.pkg.github.com"
   },
-  "version": "0.0.0",
+  "version": "0.0.0-dev",
   "scripts": {
     "serve": "live-server ./dev",
     "build": "echo 'ok'",
