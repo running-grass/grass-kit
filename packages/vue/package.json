@@ -1,9 +1,8 @@
 {
   "name": "@grass-ui/vue",
   "private": true,
-  "version": "0.0.0",
+  "version": "0.0.1-alpha.0",
   "repository": "https://github.com/grass-ui/grass-ui",
-
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc --noEmit && vite build",
@@ -12,11 +11,11 @@
     "build-storybook": "build-storybook"
   },
   "dependencies": {
+    "@grass-ui/tailwind": "*",
     "@mdx-js/react": "^2.1.2",
     "@storybook/client-api": "^6.5.9",
     "@storybook/preview-web": "^6.5.9",
     "react": "^18.2.0",
-    "@grass-ui/tailwind": "*",
     "vue": "^3.2.25"
   },
   "devDependencies": {

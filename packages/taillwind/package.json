@@ -4,9 +4,9 @@
   "main": "src/index.js",
   "repository": "https://github.com/grass-ui/grass-ui",
   "publishConfig": {
-    "registry":"https://npm.pkg.github.com"
+    "registry": "https://npm.pkg.github.com"
   },
-  "version": "0.0.0-dev",
+  "version": "0.0.1-alpha.0",
   "scripts": {
     "serve": "live-server ./dev",
     "build": "echo 'ok'",
