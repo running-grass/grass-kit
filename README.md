@@ -1,4 +1,4 @@
-# x-style
+# grass-ui
 一个基于vite、lit、tailwindcss的脚手架
 
 ## 使用方法

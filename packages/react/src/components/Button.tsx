@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types'
-import { Button as Xbutton } from '@x-style/web-component'
+import { Button as Xbutton } from 'grass-ui/web-component'
 
 import {createComponent, EventName} from '@lit-labs/react';
 

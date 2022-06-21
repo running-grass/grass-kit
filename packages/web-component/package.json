@@ -1,7 +1,8 @@
 {
-  "name": "@x-style/web-component",
+  "name": "@grass-ui/web-component",
   "private": true,
   "main": "src/index.ts",
+  "repository": "https://github.com/grass-ui/grass-ui",
   "version": "0.0.0",
   "scripts": {
     "dev": "vite dev",
@@ -34,7 +35,7 @@
   },
   "dependencies": {
     "autoprefixer": "^10.4.2",
-    "@x-style/tailwind": "*",
+    "@grass-ui/tailwind": "*",
     "lit": "^2.1.2",
     "lit-html": "^2.2.6",
     "react": "^16.0.0",

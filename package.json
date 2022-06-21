@@ -10,7 +10,7 @@
   "dependencies": {
     "lerna": "^5.1.4"
   },
-  "name": "x-style",
+  "name": "grass-ui",
   "workspaces": [
     "packages/*"
   ]

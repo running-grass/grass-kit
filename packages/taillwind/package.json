@@ -1,7 +1,11 @@
 {
-  "name": "@x-style/tailwind",
-  "private": true,
+  "name": "@grass-ui/tailwind",
+  "private": false,
   "main": "src/index.js",
+  "repository": "https://github.com/grass-ui/grass-ui",
+  "publishConfig": {
+    "registry":"https://npm.pkg.github.com"
+  },
   "version": "0.0.0",
   "scripts": {
     "serve": "live-server ./dev",

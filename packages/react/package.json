@@ -1,8 +1,11 @@
 {
-  "name": "@x-style/react",
+  "name": "@grass-ui/react",
   "version": "0.0.0",
   "description": "",
+  "private": true,
   "main": "index.js",
+  "repository": "https://github.com/grass-ui/grass-ui",
+
   "scripts": {
     "dev": "vite dev",
     "start": "vite --host",
@@ -13,12 +16,11 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
   "dependencies": {
     "@lit-labs/react": "^1.0.5",
     "@vitejs/plugin-react": "^1.3.2",
-    "@x-style/tailwind": "*",
-    "@x-style/web-component": "*",
+    "@grass-ui/tailwind": "*",
+    "@grass-ui/web-component": "*",
     "autoprefixer": "^10.4.7",
     "prop-types": "^15.8.1",
     "react": "^18.2.0",

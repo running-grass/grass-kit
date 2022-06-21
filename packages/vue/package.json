@@ -1,7 +1,9 @@
 {
-  "name": "@x-style/vue",
+  "name": "@grass-ui/vue",
   "private": true,
   "version": "0.0.0",
+  "repository": "https://github.com/grass-ui/grass-ui",
+
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc --noEmit && vite build",
@@ -14,7 +16,7 @@
     "@storybook/client-api": "^6.5.9",
     "@storybook/preview-web": "^6.5.9",
     "react": "^18.2.0",
-    "@x-style/tailwind": "*",
+    "@grass-ui/tailwind": "*",
     "vue": "^3.2.25"
   },
   "devDependencies": {
