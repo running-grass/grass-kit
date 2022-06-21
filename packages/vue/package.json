@@ -1,6 +1,5 @@
 {
   "name": "@grass-ui/vue",
-  "private": true,
   "version": "0.0.1-alpha.1",
   "repository": "https://github.com/grass-ui/grass-ui",
   "scripts": {

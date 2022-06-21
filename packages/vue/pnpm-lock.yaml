@@ -2,6 +2,7 @@ lockfileVersion: 5.4
 
 specifiers:
   '@babel/core': ^7.18.5
+  '@grass-ui/tailwind': '*'
   '@mdx-js/react': ^2.1.2
   '@storybook/addon-actions': ^6.5.9
   '@storybook/addon-backgrounds': ^6.5.9
@@ -31,6 +32,7 @@ specifiers:
   vue-tsc: ^0.34.7
 
 dependencies:
+  '@grass-ui/tailwind': 0.0.1-alpha.1
   '@mdx-js/react': 2.1.2_react@18.2.0
   '@storybook/client-api': 6.5.9_react@18.2.0
   '@storybook/preview-web': 6.5.9_react@18.2.0
@@ -1633,6 +1635,12 @@ packages:
   /@gar/promisify/1.1.3:
     resolution: {integrity: sha512-k2Ty1JcVojjJFwrg/ThKi2ujJ7XNLYaFGNB/bWT9wGR+oSMJHMa5w+CUq6p/pVrKeNNgA7pCqEcjSnHVoqJQFw==}
     dev: true
+
+  /@grass-ui/tailwind/0.0.1-alpha.1:
+    resolution: {integrity: sha512-pJmgRGl2oHJtFWovxfnnWkD6GEN2Wr9RKo9XkEsdkJD/GQcqtUewAfxE9pAqmLaMMRl2xv3/NOw06TfS9aD4qw==, tarball: download/@grass-ui/tailwind/0.0.1-alpha.1/cad5d1fcb4cd308436d9ad53a55476333660e42b2d362b91d621a6d3baf18eba}
+    peerDependencies:
+      tailwindcss: '>=3.0.0'
+    dev: false
 
   /@humanwhocodes/config-array/0.9.5:
     resolution: {integrity: sha512-ObyMyWxZiCu/yTisA7uzx81s40xR2fD5Cg/2Kq7G02ajkNubJf6BopgDTmDyc3U7sXpNKM8cYOw7s7Tyr+DnCw==}

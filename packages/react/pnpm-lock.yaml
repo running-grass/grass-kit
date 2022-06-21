@@ -2,6 +2,8 @@ lockfileVersion: 5.4
 
 specifiers:
   '@babel/core': ^7.18.5
+  '@grass-ui/tailwind': '*'
+  '@grass-ui/web-component': ^0.0.1-alpha.1
   '@lit-labs/react': ^1.0.5
   '@mdx-js/react': ^2.1.2
   '@storybook/addon-actions': ^6.5.9
@@ -32,6 +34,8 @@ specifiers:
   vite: ^2.9.12
 
 dependencies:
+  '@grass-ui/tailwind': 0.0.1-alpha.1_tailwindcss@3.1.3
+  '@grass-ui/web-component': 0.0.1-alpha.1
   '@lit-labs/react': 1.0.5
   '@vitejs/plugin-react': 1.3.2
   autoprefixer: 10.4.7
@@ -1539,6 +1543,33 @@ packages:
     resolution: {integrity: sha512-k2Ty1JcVojjJFwrg/ThKi2ujJ7XNLYaFGNB/bWT9wGR+oSMJHMa5w+CUq6p/pVrKeNNgA7pCqEcjSnHVoqJQFw==}
     dev: true
 
+  /@grass-ui/tailwind/0.0.1-alpha.1_tailwindcss@3.1.3:
+    resolution: {integrity: sha512-pJmgRGl2oHJtFWovxfnnWkD6GEN2Wr9RKo9XkEsdkJD/GQcqtUewAfxE9pAqmLaMMRl2xv3/NOw06TfS9aD4qw==, tarball: download/@grass-ui/tailwind/0.0.1-alpha.1/cad5d1fcb4cd308436d9ad53a55476333660e42b2d362b91d621a6d3baf18eba}
+    peerDependencies:
+      tailwindcss: '>=3.0.0'
+    dependencies:
+      tailwindcss: 3.1.3
+    dev: false
+
+  /@grass-ui/web-component/0.0.1-alpha.1:
+    resolution: {integrity: sha512-Vm6RJZlbk6sEfDUv/lFLOWG1CZ53ErzOwi51mxXE1i+E/sYTca6T6LzW+PKmlcHATPMdPsLHpZXnChul9iM4mA==, tarball: download/@grass-ui/web-component/0.0.1-alpha.1/4a2cd77639bc7d0f752557da2d59bbd6692195309e85dc5354de918d5388afcb}
+    dependencies:
+      '@grass-ui/tailwind': 0.0.1-alpha.1_tailwindcss@3.1.3
+      autoprefixer: 10.4.7
+      lit: 2.2.6
+      lit-html: 2.2.6
+      react: 16.14.0
+      tailwindcss: 3.1.3
+      typescript: 4.7.4
+      vite: 2.9.12
+    transitivePeerDependencies:
+      - less
+      - postcss
+      - sass
+      - stylus
+      - ts-node
+    dev: false
+
   /@humanwhocodes/config-array/0.9.5:
     resolution: {integrity: sha512-ObyMyWxZiCu/yTisA7uzx81s40xR2fD5Cg/2Kq7G02ajkNubJf6BopgDTmDyc3U7sXpNKM8cYOw7s7Tyr+DnCw==}
     engines: {node: '>=10.10.0'}
@@ -1659,6 +1690,10 @@ packages:
 
   /@lit-labs/react/1.0.5:
     resolution: {integrity: sha512-GSbzzsIalrBOC11pC+KwQwvgvmVZpXfKo7k3BoGSqLf3jXD3GI2xIvIxTaMGp3OLDqG5F43jOMCPdsh0Nq97dg==}
+    dev: false
+
+  /@lit/reactive-element/1.3.2:
+    resolution: {integrity: sha512-A2e18XzPMrIh35nhIdE4uoqRzoIpEU5vZYuQN4S3Ee1zkGdYC27DP12pewbw/RLgPHzaE4kx/YqxMzebOpm0dA==}
     dev: false
 
   /@mdx-js/mdx/1.6.22:
@@ -3274,6 +3309,10 @@ packages:
   /@types/tapable/1.0.8:
     resolution: {integrity: sha512-ipixuVrh2OdNmauvtT51o3d8z12p6LtFW9in7U79der/kwejjdNchQC5UMn5u/KxNoM7VHHOs/l8KS8uHxhODQ==}
     dev: true
+
+  /@types/trusted-types/2.0.2:
+    resolution: {integrity: sha512-F5DIZ36YVLE+PN+Zwws4kJogq47hNgX3Nx6WyDJ3kcplxyke3XIzB8uK5n/Lpm1HBsbGzd6nmGehL8cPekP+Tg==}
+    dev: false
 
   /@types/uglify-js/3.16.0:
     resolution: {integrity: sha512-0yeUr92L3r0GLRnBOvtYK1v2SjqMIqQDHMl7GLb+l2L8+6LSFWEEWEIgVsPdMn5ImLM8qzWT8xFPtQYpp8co0g==}
@@ -7766,6 +7805,27 @@ packages:
     resolution: {integrity: sha512-7ylylesZQ/PV29jhEDl3Ufjo6ZX7gCqJr5F7PKrqc93v7fzSymt1BpwEU8nAUXs8qzzvqhbjhK5QZg6Mt/HkBg==}
     dev: true
 
+  /lit-element/3.2.0:
+    resolution: {integrity: sha512-HbE7yt2SnUtg5DCrWt028oaU4D5F4k/1cntAFHTkzY8ZIa8N0Wmu92PxSxucsQSOXlODFrICkQ5x/tEshKi13g==}
+    dependencies:
+      '@lit/reactive-element': 1.3.2
+      lit-html: 2.2.6
+    dev: false
+
+  /lit-html/2.2.6:
+    resolution: {integrity: sha512-xOKsPmq/RAKJ6dUeOxhmOYFjcjf0Q7aSdfBJgdJkOfCUnkmmJPxNrlZpRBeVe1Gg50oYWMlgm6ccAE/SpJgSdw==}
+    dependencies:
+      '@types/trusted-types': 2.0.2
+    dev: false
+
+  /lit/2.2.6:
+    resolution: {integrity: sha512-K2vkeGABfSJSfkhqHy86ujchJs3NR9nW1bEEiV+bXDkbiQ60Tv5GUausYN2mXigZn8lC1qXuc46ArQRKYmumZw==}
+    dependencies:
+      '@lit/reactive-element': 1.3.2
+      lit-element: 3.2.0
+      lit-html: 2.2.6
+    dev: false
+
   /load-json-file/1.1.0:
     resolution: {integrity: sha512-cy7ZdNRXdablkXYNI049pthVeXFurRyb9+hA/dZzerZ0pGTx42z+y+ssxBaVV2l70t1muq5IdKhn4UtcoGUY9A==}
     engines: {node: '>=0.10.0'}
@@ -9430,6 +9490,15 @@ packages:
       react: 18.2.0
       refractor: 3.6.0
     dev: true
+
+  /react/16.14.0:
+    resolution: {integrity: sha512-0X2CImDkJGApiAlcf0ODKIneSwBPhqJawOa5wCtKbu7ZECrmS26NvtSILynQ66cgkT/RJ4LidJOc3bUESwmU8g==}
+    engines: {node: '>=0.10.0'}
+    dependencies:
+      loose-envify: 1.4.0
+      object-assign: 4.1.1
+      prop-types: 15.8.1
+    dev: false
 
   /react/18.2.0:
     resolution: {integrity: sha512-/3IjMdb2L9QbBdWiW5e3P2/npwMBaU9mHCSCUzNln0ZCYbcfTsGbTJrU/kGemdH2IWmB2ioZ+zkxtmq6g09fGQ==}
