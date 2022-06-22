@@ -23,7 +23,7 @@
 ### 支持的框架
 
 - [x] web component
-- [] vue 
+- [ ] vue 
 - [x] react
 
 ### 开关
