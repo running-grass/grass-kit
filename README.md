@@ -33,3 +33,49 @@
 - [x] web component
 - [ ] vue 
 - [ ] react
+
+
+## 使用方式
+
+### react
+#### 首先引入增加包注册表映射，在`package.json`同级的`.npmrc`中增加下行
+```dotenv
+@grass-ui:registry=https://npm.pkg.github.com
+```
+
+#### 引入相关包
+```bash
+pnpm i tailwindcss @grass-ui/tailwind  @grass-ui/web-component @grass-ui/react
+```
+
+#### 配置`tailwind.config.js`
+```javascript
+module.exports = {
+  presets: [
+    require("@grass-ui/tailwind")  // 增加这一行，引入tailwind的自定义组件
+  ],
+  content: [
+    './src/**/*.{ts,html}',
+    './node_modules/@grass-ui/web-component/src/**/*.ts', // 增加这一行，避免自定义组件的样式被删掉
+  ],
+}
+```
+
+#### (使用postcss)配置`postcss.config.js`
+```js
+module.exports = {
+  plugins: {
+    tailwindcss: {}, // 增加这一样，应用tailwindcss的编译
+  },
+}
+```
+
+
+## 注意事项
+
+### 在浏览器插件的content script中使用
+由于依赖了customelement的API，所以需要引入两个垫片
+```
+"node_modules/lit/polyfill-support.js"
+"node_modules/@webcomponents/webcomponentsjs/webcomponents-bundle.js"
+```
