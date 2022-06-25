@@ -8,13 +8,13 @@ export class GrassButton extends TwLitElement {
    * 是否为主要按钮
    */
   @property({type: Boolean})
-  primary: boolean
+  primary: boolean = false
 
   /**
    * 按钮文字
    */
   @property({type: String})
-  label: string
+  label: string = "Button"
 
   render() {
     return html`<div 
