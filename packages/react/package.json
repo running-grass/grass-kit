@@ -1,21 +1,21 @@
 {
 	"name": "@grass-ui/react",
-	"version": "0.0.1-alpha.6",
+	"version": "0.0.1",
 	"description": "",
 	"main": "src/index.ts",
-  "license": "MIT",
+	"license": "MIT",
 	"repository": "https://github.com/grass-ui/grass-ui",
 	"publishConfig": {
 		"registry": "https://npm.pkg.github.com"
 	},
-  "scripts": {
-    "dev": "vite dev",
-    "start": "vite --host",
-    "build": "vite build",
-    "lint": "eslint src --fix",
-    "storybook": "start-storybook -p 6004",
-    "build-storybook": "build-storybook"
-  },
+	"scripts": {
+		"dev": "vite dev",
+		"start": "vite --host",
+		"build": "vite build",
+		"lint": "eslint src --fix",
+		"storybook": "start-storybook -p 6004",
+		"build-storybook": "build-storybook"
+	},
 	"keywords": [],
 	"author": "",
 	"dependencies": {
@@ -30,8 +30,8 @@
 	},
 	"devDependencies": {
 		"@babel/core": "^7.18.5",
-		"@grass-ui/web-component": "~0.0.1-alpha.1",
-		"@grass-ui/tailwind": "~0.0.1-alpha.1",
+		"@grass-ui/tailwind": "^0.0.1",
+		"@grass-ui/web-component": "^0.0.1",
 		"@mdx-js/react": "^2.1.2",
 		"@storybook/addon-actions": "^6.5.9",
 		"@storybook/addon-backgrounds": "^6.5.9",
