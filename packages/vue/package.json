@@ -1,6 +1,6 @@
 {
 	"name": "@grass-ui/vue",
-	"version": "0.0.2",
+	"version": "0.0.3",
 	"main": "src/index.ts",
 	"repository": "https://github.com/grass-ui/grass-ui",
 	"publishConfig": {
