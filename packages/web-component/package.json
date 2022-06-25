@@ -43,7 +43,7 @@
     "vite": "^2.9.12"
   },
   "peerDependencies": {
-    "@grass-ui/tailwind": "~0.0.1-alpha.1",
+    "@grass-ui/tailwind": "*",
     "lit": "^2.1.2",
     "typescript": "*"
   },
