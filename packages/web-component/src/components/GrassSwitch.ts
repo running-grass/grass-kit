@@ -20,7 +20,7 @@ export class GrassSwitch extends TwLitElement {
     return !value
   }
 
-  onClick() {
+  private onClick() {
     let newValue = this.value
     if (this.toggleHandler) {
       newValue = this.toggleHandler(this.value)
@@ -38,11 +38,14 @@ export class GrassSwitch extends TwLitElement {
 
     }
 
+    this.requestUpdate()
   }
   render() {
     return html`<div 
     @click="${this.onClick}"
     class="switch ${this.value ? "switch__on" : "switch__off"}"
-    ></div> `;
+    >
+      <div class="switch--inner"></div>
+    </div> `;
   }
 }

@@ -4,12 +4,23 @@ module.exports = () => ({
     "@apply text-base text-gray-600": {},
     "@apply cursor-pointer select-none border-0": {},
 
-    "@apply after:h-[0.8rem] after:w-[0.8rem] after:bg-white after:float-left after:rounded-full": {},
   },
+  ".switch--inner": {
+    "@apply h-[0.8rem] w-[0.8rem] bg-white float-left rounded-full": {},
+  },
+
   ".switch__off": {
     "@apply bg-indigo-200 after:float-left": {},
   },
   ".switch__on": {
     "@apply bg-indigo-500 after:float-right": {},
   },
+
+  ".switch__off .switch--inner": {
+    "@apply float-left": {},
+  },
+  ".switch__on .switch--inner": {
+    "@apply float-right": {},
+  },
+
 })

@@ -6,6 +6,7 @@
     "registry": "https://npm.pkg.github.com"
   },
   "version": "0.0.2",
+  "license": "MIT",
   "scripts": {
     "serve": "live-server ./dev",
     "build": "echo 'ok'",
