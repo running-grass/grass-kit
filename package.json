@@ -5,14 +5,9 @@
     "pnpm": ">=7"
   },
   "scripts": {
-    "bootstrap": "lerna bootstrap --npm-client=pnpm",
-    "publish": "lerna publish"
   },
   "dependencies": {
     "lerna": "^5.1.4"
   },
-  "name": "grass-ui",
-  "workspaces": [
-    "packages/*"
-  ]
+  "name": "grass-ui"
 }

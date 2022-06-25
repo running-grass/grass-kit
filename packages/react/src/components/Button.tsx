@@ -1,14 +1,14 @@
 import React from 'react';
 import PropTypes from 'prop-types'
-import { Button as Xbutton } from '@grass-ui/web-component'
+import { GrassButton as Wbutton } from '@grass-ui/web-component'
 
 import {createComponent, EventName} from '@lit-labs/react';
 
 
 export const Button = createComponent(
   React,
-  'x-button',
-  Xbutton,
+  'grass-button',
+  Wbutton,
   {
     onClick: 'click' as EventName<PointerEvent>,
   }

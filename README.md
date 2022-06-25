@@ -32,7 +32,7 @@
 
 - [x] web component
 - [ ] vue 
-- [ ] react
+- [x] react
 
 
 ## 使用方式
@@ -45,7 +45,7 @@
 
 #### 引入相关包
 ```bash
-pnpm i tailwindcss @grass-ui/tailwind  @grass-ui/web-component @grass-ui/react
+yarn add tailwindcss @grass-ui/tailwind  @grass-ui/web-component @grass-ui/react
 ```
 
 #### 配置`tailwind.config.js`

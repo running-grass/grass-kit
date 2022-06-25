@@ -1,11 +1,11 @@
-import './Button'
+import './GrassButton'
 import { html } from 'lit';
 export default {
   title: 'Web组件/按钮',
 }
 
 const Template = ({ primary, label }) =>
-  html`<x-button ?primary=${primary} .label=${label}></x-button>`;
+  html`<grass-button ?primary=${primary} .label=${label}></grass-button>`;
 
 export const 默认按钮 = Template.bind({});
 默认按钮.args = {

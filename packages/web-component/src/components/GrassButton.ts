@@ -2,8 +2,8 @@ import { html } from "lit";
 import {  customElement, property } from "lit/decorators.js";
 import { TwLitElement } from "../common/TwLitElement";
 
-@customElement("x-button")
-export class Button extends TwLitElement {
+@customElement("grass-button")
+export class GrassButton extends TwLitElement {
   /**
    * 是否为主要按钮
    */
@@ -15,12 +15,6 @@ export class Button extends TwLitElement {
    */
   @property({type: String})
   label: string
-
-  // onClick(e: Event) {
-  //   console.log(e)
-  // }
-  // @click="${this.onClick}"
-
 
   render() {
     return html`<div 
