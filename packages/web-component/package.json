@@ -1,6 +1,6 @@
 {
   "name": "@grass-kit/web-component",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "A lit component library based on Tailwind CSS",
   "keywords": [
     "tailwind",
@@ -28,7 +28,7 @@
     "storybook": "start-storybook -p 6004"
   },
   "devDependencies": {
-    "@grass-kit/tailwind": "^0.0.6",
+    "@grass-kit/tailwind": "^0.0.7",
     "@mdx-js/react": "^2.1.1",
     "@storybook/addon-actions": "^6.5.9",
     "@storybook/addon-backgrounds": "^6.5.9",

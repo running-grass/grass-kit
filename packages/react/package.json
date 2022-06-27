@@ -1,12 +1,12 @@
 {
   "name": "@grass-kit/react",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "A react component library based on Tailwind CSS",
   "keywords": [
     "tailwind",
     "tailwind-css",
     "react",
-		"lit",
+    "lit",
     "web-component",
     "component",
     "ui-library"
@@ -37,8 +37,8 @@
   },
   "devDependencies": {
     "@babel/core": "^7.18.5",
-    "@grass-kit/tailwind": "^0.0.6",
-    "@grass-kit/web-component": "^0.0.6",
+    "@grass-kit/tailwind": "^0.0.7",
+    "@grass-kit/web-component": "^0.0.7",
     "@mdx-js/react": "^2.1.2",
     "@storybook/addon-actions": "^6.5.9",
     "@storybook/addon-backgrounds": "^6.5.9",
