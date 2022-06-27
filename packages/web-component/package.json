@@ -8,14 +8,9 @@
   },
   "homepage": "https://github.com/grass-kit/grass-kit",
   "version": "0.0.6-alpha.0",
-  "publishConfig": [
-    {
-      "registry": "https://npm.pkg.github.com"
-    },
-    {
-      "registry": "https://registry.npmjs.org"
-    }
-  ],
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org"
+  },
   "scripts": {
     "prepublishOnly": "npm-multi-publish",
     "postpublish": "npm-multi-publish",
@@ -60,5 +55,5 @@
     "lit": "^2.1.2",
     "typescript": "*"
   },
-  "gitHead": "b7d67290a7ea50eaf994c3333737d02e3d2f8a30"
+  "gitHead": "ded434d6a9f489e9ae18c0d1213a4b6628de45d2"
 }
