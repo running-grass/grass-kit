@@ -1,6 +1,6 @@
 {
 	"name": "@grass-kit/react",
-	"version": "0.0.5",
+	"version": "0.0.6-alpha.0",
 	"description": "",
 	"main": "src/index.ts",
 	"license": "MIT",
@@ -9,14 +9,17 @@
 		"url": "https://github.com/grass-kit/grass-kit/issues"
 	},
 	"homepage": "https://github.com/grass-kit/grass-kit",
-	"publishConfig": [{
-    "registry": "https://npm.pkg.github.com"
-  }, {
-    "registry": "https://registry.npmjs.org"
-  }],
+	"publishConfig": [
+		{
+			"registry": "https://npm.pkg.github.com"
+		},
+		{
+			"registry": "https://registry.npmjs.org"
+		}
+	],
 	"scripts": {
-    "prepublishOnly": "npm-multi-publish",
-    "postpublish": "npm-multi-publish",
+		"prepublishOnly": "npm-multi-publish",
+		"postpublish": "npm-multi-publish",
 		"dev": "vite dev",
 		"start": "vite --host",
 		"build": "vite build",
@@ -38,8 +41,8 @@
 	},
 	"devDependencies": {
 		"@babel/core": "^7.18.5",
-		"@grass-kit/tailwind": "^0.0.5",
-		"@grass-kit/web-component": "^0.0.5",
+		"@grass-kit/tailwind": "^0.0.6-alpha.0",
+		"@grass-kit/web-component": "^0.0.6-alpha.0",
 		"@mdx-js/react": "^2.1.2",
 		"@storybook/addon-actions": "^6.5.9",
 		"@storybook/addon-backgrounds": "^6.5.9",

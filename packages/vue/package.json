@@ -1,6 +1,6 @@
 {
 	"name": "@grass-kit/vue",
-	"version": "0.0.5",
+	"version": "0.0.6-alpha.0",
 	"main": "src/index.ts",
 	"license": "MIT",
 	"repository": "https://github.com/grass-kit/grass-kit/tree/master/packages/vue",
@@ -8,14 +8,17 @@
 		"url": "https://github.com/grass-kit/grass-kit/issues"
 	},
 	"homepage": "https://github.com/grass-kit/grass-kit",
-	"publishConfig": [{
-    "registry": "https://npm.pkg.github.com"
-  }, {
-    "registry": "https://registry.npmjs.org"
-  }],
+	"publishConfig": [
+		{
+			"registry": "https://npm.pkg.github.com"
+		},
+		{
+			"registry": "https://registry.npmjs.org"
+		}
+	],
 	"scripts": {
-    "prepublishOnly": "npm-multi-publish",
-    "postpublish": "npm-multi-publish"
+		"prepublishOnly": "npm-multi-publish",
+		"postpublish": "npm-multi-publish"
 	},
 	"dependencies": {
 		"@mdx-js/react": "^2.1.2",
