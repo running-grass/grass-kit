@@ -6,15 +6,10 @@
     "url": "https://github.com/grass-kit/grass-kit/issues"
   },
   "homepage": "https://github.com/grass-kit/grass-kit",
-  "publishConfig": [
-    {
-      "registry": "https://registry.npmjs.org"
-    },
-    {
-      "registry": "https://npm.pkg.github.com"
-    }
-  ],
-  "version": "0.0.6-alpha.8",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
+  "version": "0.0.6-alpha.0",
   "license": "MIT",
   "scripts": {
     "prepublishOnly": "npm-multi-publish",
