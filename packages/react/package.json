@@ -10,11 +10,11 @@
 	},
 	"homepage": "https://github.com/grass-kit/grass-kit",
 	"publishConfig": [
-		{
-			"registry": "https://npm.pkg.github.com"
+		{	
+			"registry": "https://registry.npmjs.org"
 		},
 		{
-			"registry": "https://registry.npmjs.org"
+			"registry": "https://npm.pkg.github.com"
 		}
 	],
 	"scripts": {
@@ -72,5 +72,5 @@
 		"vite": "^2.9.12",
 		"webpack": "^2.0.0"
 	},
-	"gitHead": "ded434d6a9f489e9ae18c0d1213a4b6628de45d2"
+	"gitHead": "45da6cb01729c42b7f8b4fc1077c3e1fe5a93503"
 }
