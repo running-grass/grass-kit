@@ -8,10 +8,14 @@
   },
   "homepage": "https://github.com/grass-kit/grass-kit",
   "version": "0.0.5",
-  "publishConfig": {
+  "publishConfig": [{
     "registry": "https://npm.pkg.github.com"
-  },
+  }, {
+    "registry": "https://registry.npmjs.org"
+  }],
   "scripts": {
+    "prepublishOnly": "npm-multi-publish",
+    "postpublish": "npm-multi-publish",
     "dev": "vite dev",
     "start": "vite --host",
     "build": "vite build",

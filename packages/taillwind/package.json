@@ -6,12 +6,16 @@
     "url": "https://github.com/grass-kit/grass-kit/issues"
   },
   "homepage": "https://github.com/grass-kit/grass-kit",
-  "publishConfig": {
+  "publishConfig": [{
     "registry": "https://npm.pkg.github.com"
-  },
+  }, {
+    "registry": "https://registry.npmjs.org"
+  }],
   "version": "0.0.5",
   "license": "MIT",
   "scripts": {
+    "prepublishOnly": "npm-multi-publish",
+    "postpublish": "npm-multi-publish",
     "serve": "live-server ./dev",
     "build": "echo 'ok'",
     "dev:build": "tailwindcss -c ./dev/tailwind.config.js -o ./dev/dist/tailwind.css",

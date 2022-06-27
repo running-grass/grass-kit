@@ -3,10 +3,12 @@
   "engines": {
     "node": ">=16"
   },
-  "scripts": {
-  },
+  "scripts": {},
   "dependencies": {
     "lerna": "^5.1.4"
   },
-  "name": "grass-kit"
+  "name": "grass-kit",
+  "devDependencies": {
+    "npm-multi-publish": "^2.2.0"
+  }
 }
