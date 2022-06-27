@@ -7,7 +7,7 @@
     "url": "https://github.com/grass-kit/grass-kit/issues"
   },
   "homepage": "https://github.com/grass-kit/grass-kit",
-  "version": "0.0.6-alpha.7",
+  "version": "0.0.6-alpha.8",
   "publishConfig": [
     {
       "registry": "https://registry.npmjs.org"
@@ -27,7 +27,7 @@
     "build-storybook": "build-storybook"
   },
   "devDependencies": {
-    "@grass-kit/tailwind": "^0.0.6-alpha.7",
+    "@grass-kit/tailwind": "^0.0.6-alpha.8",
     "@mdx-js/react": "^2.1.1",
     "@storybook/addon-actions": "^6.5.9",
     "@storybook/addon-backgrounds": "^6.5.9",
