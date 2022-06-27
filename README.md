@@ -1,4 +1,4 @@
-# Grass UI
+# Grass Kit
 一个基于`tailwindcss`的全框架UI库
 
 ## 愿景
