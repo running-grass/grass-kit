@@ -1,13 +1,13 @@
 {
-	"name": "@grass-ui/vue",
+	"name": "@grass-kit/vue",
 	"version": "0.0.5",
 	"main": "src/index.ts",
 	"license": "MIT",
-	"repository": "https://github.com/grass-ui/grass-ui/tree/master/packages/vue",
+	"repository": "https://github.com/grass-kit/grass-kit/tree/master/packages/vue",
 	"bugs": {
-		"url": "https://github.com/grass-ui/grass-ui/issues"
+		"url": "https://github.com/grass-kit/grass-kit/issues"
 	},
-	"homepage": "https://github.com/grass-ui/grass-ui",
+	"homepage": "https://github.com/grass-kit/grass-kit",
 	"publishConfig": {
 		"registry": "https://npm.pkg.github.com"
 	},

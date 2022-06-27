@@ -10,7 +10,7 @@ export default defineConfig({
       entry: path.resolve(__dirname, './src/index.ts'),
       name: 'XStyleReact',
       // the proper extensions will be added
-      fileName: 'grass-ui-react'
+      fileName: 'grass-kit-react'
     },
   },
   plugins: [

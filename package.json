@@ -8,5 +8,5 @@
   "dependencies": {
     "lerna": "^5.1.4"
   },
-  "name": "grass-ui"
+  "name": "grass-kit"
 }

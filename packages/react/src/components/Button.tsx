@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types'
-import { GrassButton as Wbutton } from '@grass-ui/web-component'
+import { GrassButton as Wbutton } from '@grass-kit/web-component'
 
 import {createComponent, EventName} from '@lit-labs/react';
 

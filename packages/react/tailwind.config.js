@@ -1,9 +1,9 @@
 module.exports = {
   presets: [
-    require("@grass-ui/tailwind"),
+    require("@grass-kit/tailwind"),
   ],
   content: [
     'src/**/*.{ts,html,vue,js,tsx,jsx}',
-    './node_modules/@grass-ui/web-component/src/**/*.{ts,html,js}',
+    './node_modules/@grass-kit/web-component/src/**/*.{ts,html,js}',
   ],
 }

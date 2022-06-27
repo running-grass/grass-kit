@@ -6,7 +6,7 @@ export default defineConfig({
       entry: path.resolve(__dirname, './src/index.ts'),
       name: 'XStyleWC',
       // the proper extensions will be added
-      fileName: 'grass-ui'
+      fileName: 'grass-kit'
     },
   }
 });

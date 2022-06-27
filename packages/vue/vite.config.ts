@@ -9,7 +9,7 @@ export default defineConfig({
         entry: path.resolve(__dirname, './src/main.ts'),
         name: 'XStyleVue',
         // the proper extensions will be added
-        fileName: 'grass-ui-vue'
+        fileName: 'grass-kit-vue'
     }
   },
   plugins: [vue()]
