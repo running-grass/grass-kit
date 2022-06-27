@@ -2,7 +2,12 @@
 	"name": "@grass-ui/vue",
 	"version": "0.0.4",
 	"main": "src/index.ts",
-	"repository": "https://github.com/grass-ui/grass-ui",
+	"license": "MIT",
+	"repository": "https://github.com/grass-ui/grass-ui/tree/master/packages/vue",
+  "bugs": {
+    "url": "https://github.com/grass-ui/grass-ui/issues"
+  },
+  "homepage": "https://github.com/grass-ui/grass-ui",
 	"publishConfig": {
 		"registry": "https://npm.pkg.github.com"
 	},

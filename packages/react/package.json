@@ -4,7 +4,11 @@
 	"description": "",
 	"main": "src/index.ts",
 	"license": "MIT",
-	"repository": "https://github.com/grass-ui/grass-ui",
+	"repository": "https://github.com/grass-ui/grass-ui/tree/master/packages/react",
+  "bugs": {
+    "url": "https://github.com/grass-ui/grass-ui/issues"
+  },
+  "homepage": "https://github.com/grass-ui/grass-ui",
 	"publishConfig": {
 		"registry": "https://npm.pkg.github.com"
 	},

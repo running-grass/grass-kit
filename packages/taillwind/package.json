@@ -1,7 +1,11 @@
 {
   "name": "@grass-ui/tailwind",
   "main": "src/index.js",
-  "repository": "https://github.com/grass-ui/grass-ui",
+  "repository": "https://github.com/grass-ui/grass-ui/tree/master/packages/taillwind",
+  "bugs": {
+    "url": "https://github.com/grass-ui/grass-ui/issues"
+  },
+  "homepage": "https://github.com/grass-ui/grass-ui",
   "publishConfig": {
     "registry": "https://npm.pkg.github.com"
   },
