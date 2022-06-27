@@ -1,3 +1,3 @@
-# Grasss UI For React
+# Grass KitFor React
 
 See: https://github.com/grass-kit/grass-kit#readme

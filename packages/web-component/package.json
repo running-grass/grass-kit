@@ -1,30 +1,31 @@
 {
   "name": "@grass-kit/web-component",
-  "main": "src/index.ts",
-  "license": "MIT",
-  "repository": "https://github.com/grass-kit/grass-kit/tree/master/packages/web-component",
+  "version": "0.0.6",
+  "description": "A lit component library based on Tailwind CSS",
+  "keywords": [
+    "tailwind",
+    "tailwind-css",
+    "lit",
+    "web-component",
+    "component",
+    "ui-library"
+  ],
+  "homepage": "https://github.com/grass-kit/grass-kit",
   "bugs": {
     "url": "https://github.com/grass-kit/grass-kit/issues"
   },
-  "homepage": "https://github.com/grass-kit/grass-kit",
-  "version": "0.0.6",
-  "publishConfig": [
-    {
-      "registry": "https://registry.npmjs.org"
-    },
-    {
-      "registry": "https://npm.pkg.github.com"
-    }
-  ],
+  "repository": "https://github.com/grass-kit/grass-kit/tree/master/packages/web-component",
+  "license": "MIT",
+  "main": "src/index.ts",
   "scripts": {
+    "build": "vite build",
+    "build-storybook": "build-storybook",
+    "dev": "vite dev",
+    "lint": "eslint src --fix",
     "prepublishOnly": "npm-multi-publish",
     "postpublish": "npm-multi-publish",
-    "dev": "vite dev",
     "start": "vite --host",
-    "build": "vite build",
-    "lint": "eslint src --fix",
-    "storybook": "start-storybook -p 6004",
-    "build-storybook": "build-storybook"
+    "storybook": "start-storybook -p 6004"
   },
   "devDependencies": {
     "@grass-kit/tailwind": "^0.0.6",
@@ -60,5 +61,13 @@
     "lit": "^2.1.2",
     "typescript": "*"
   },
+  "publishConfig": [
+    {
+      "registry": "https://registry.npmjs.org"
+    },
+    {
+      "registry": "https://npm.pkg.github.com"
+    }
+  ],
   "gitHead": "84b273b152c4e05c22d5d8adcf2a69023944adcf"
 }

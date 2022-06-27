@@ -1,3 +1,3 @@
-# Grasss UI For Vue
+# Grass KitFor Vue
 
 See: https://github.com/grass-kit/grass-kit#readme
