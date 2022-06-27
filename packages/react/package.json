@@ -1,6 +1,6 @@
 {
 	"name": "@grass-kit/react",
-	"version": "0.0.6-alpha.12",
+	"version": "0.0.6",
 	"description": "",
 	"main": "src/index.ts",
 	"license": "MIT",
@@ -41,8 +41,8 @@
 	},
 	"devDependencies": {
 		"@babel/core": "^7.18.5",
-		"@grass-kit/tailwind": "^0.0.6-alpha.8",
-		"@grass-kit/web-component": "^0.0.6-alpha.9",
+		"@grass-kit/tailwind": "^0.0.6",
+		"@grass-kit/web-component": "^0.0.6",
 		"@mdx-js/react": "^2.1.2",
 		"@storybook/addon-actions": "^6.5.9",
 		"@storybook/addon-backgrounds": "^6.5.9",
