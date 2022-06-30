@@ -25,7 +25,7 @@
     "prepublishOnly": "npm-multi-publish",
     "postpublish": "npm-multi-publish",
     "start": "vite --host",
-    "storybook": "start-storybook -p 6004"
+    "storybook": "start-storybook -p 6002"
   },
   "devDependencies": {
     "@grass-kit/tailwind": "^0.0.7",
