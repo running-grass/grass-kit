@@ -3,7 +3,9 @@
   "engines": {
     "node": ">=16"
   },
-  "scripts": {},
+  "scripts": {
+    "chromatic": "npx chromatic --project-token=b944a456a840"
+  },
   "dependencies": {
     "lerna": "^5.1.4"
   },
@@ -11,5 +13,8 @@
   "devDependencies": {
     "chromatic": "^6.6.4",
     "npm-multi-publish": "^2.2.0"
+  },
+  "storybook": {
+    "url": "https://your-published-url.chromatic.com"
   }
 }
