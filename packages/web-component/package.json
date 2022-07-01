@@ -14,7 +14,10 @@
   "bugs": {
     "url": "https://github.com/grass-kit/grass-kit/issues"
   },
-  "repository": "https://github.com/grass-kit/grass-kit/tree/master/packages/web-component",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/grass-kit/grass-kit/tree/master/packages/web-component"
+  },
   "license": "MIT",
   "main": "src/index.ts",
   "scripts": {
@@ -25,7 +28,8 @@
     "prepublishOnly": "npm-multi-publish",
     "postpublish": "npm-multi-publish",
     "start": "vite --host",
-    "storybook": "start-storybook -p 6004"
+    "storybook": "start-storybook -p 6002",
+    "chromatic": "npx chromatic --project-token=b944a456a840"
   },
   "devDependencies": {
     "@grass-kit/tailwind": "^0.0.7",
@@ -69,5 +73,7 @@
       "registry": "https://npm.pkg.github.com"
     }
   ],
-  "gitHead": "84b273b152c4e05c22d5d8adcf2a69023944adcf"
+  "gitHead": "84b273b152c4e05c22d5d8adcf2a69023944adcf",
+  "readme": "ERROR: No README data found!",
+  "_id": "@grass-kit/web-component@0.0.7"
 }
