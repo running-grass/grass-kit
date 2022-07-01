@@ -9,6 +9,7 @@
   },
   "name": "grass-kit",
   "devDependencies": {
+    "chromatic": "^6.6.4",
     "npm-multi-publish": "^2.2.0"
   }
 }

@@ -22,11 +22,10 @@
   "scripts": {
     "build": "vite build",
     "build-storybook": "build-storybook",
-    "dev": "vite dev",
+    "dev": "yarn storybook",
     "lint": "eslint src --fix",
     "prepublishOnly": "npm-multi-publish",
     "postpublish": "npm-multi-publish",
-    "start": "vite --host",
     "storybook": "start-storybook -p 6003"
   },
   "dependencies": {
@@ -69,8 +68,10 @@
     "webpack": "^2.0.0"
   },
   "peerDependencies": {
+    "@grass-kit/tailwind": "*",
     "@grass-kit/web-component": "*",
-    "react": "*"
+    "react": "*",
+    "tailwindcss": "*"
   },
   "publishConfig": [
     {

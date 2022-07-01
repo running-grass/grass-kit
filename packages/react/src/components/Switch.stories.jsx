@@ -5,9 +5,6 @@ import { Switch } from './Switch';
 export default {
   title: 'React/开关',
   component: Switch,
-  argTypes: {
-    backgroundColor: { control: 'color' },
-  },
 };
 
 const Template = (args) => <Switch {...args} />;

@@ -1,7 +1,7 @@
 module.exports = () => ({
   ".btn" : {
     "@apply inline-block h-auto w-auto mx-auto rounded": {},
-    "@apply py-2 px-5": {},
+    "@apply py-2 px-4": {},
     "@apply text-base text-gray-600": {},
     "@apply cursor-pointer select-none": {},
     "@apply border-0 bg-indigo-100": {},

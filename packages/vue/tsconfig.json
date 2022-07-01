@@ -1,7 +1,13 @@
 {
-  "extends": "../../tsconfig.json",
   "compilerOptions": {
-    "allowJs": true
+    "target": "esnext",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
+    "experimentalDecorators": true,
+    "useDefineForClassFields": false,
+    "jsx": "preserve",
+    "baseUrl": "src"
   },
-  "include": ["src/**/*.ts", "src/**/*.d.ts", "src/**/*.tsx", "src/**/*.vue"]
+  "include": ["src"]
 }
