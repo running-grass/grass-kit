@@ -11,6 +11,10 @@
 2. 组件的状态管理和事件系统靠web components来统一
 3. vue，react, preact等框架下的库为对lit-element的封装和优化
 
+
+## 文档
+storybook地址: https://master--62bd4081cc758b9332a3687a.chromatic.com/
+
 ## 组件
 
 ### 按钮
