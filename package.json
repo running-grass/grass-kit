@@ -6,7 +6,7 @@
   "scripts": {
     "build-storybook": "build-storybook",
     "storybook": "start-storybook -p 6006",
-    "chromatic": "npx chromatic --project-token=b944a456a840"
+    "chromatic": "npx chromatic --project-token=b944a456a840 --exit-zero-on-changes"
   },
   "dependencies": {
     "lerna": "^5.1.4"
