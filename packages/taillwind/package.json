@@ -14,7 +14,10 @@
   "bugs": {
     "url": "https://github.com/grass-kit/grass-kit/issues"
   },
-  "repository": "https://github.com/grass-kit/grass-kit/tree/master/packages/taillwind",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/grass-kit/grass-kit/tree/master/packages/taillwind"
+  },
   "license": "MIT",
   "main": "src/index.js",
   "scripts": {
@@ -24,12 +27,26 @@
     "build": "echo 'ok'",
     "dev:build": "tailwindcss -c ./dev/tailwind.config.js -o ./dev/dist/tailwind.css",
     "dev:watch": "run-s 'dev:build -w'",
-    "dev": "run-p dev:watch serve"
+    "dev": "run-p dev:watch serve",
+    "storybook": "start-storybook -p 6001",
+    "build-storybook": "build-storybook",
+    "chromatic": "npx chromatic --project-token=244e86a59fe4 --exit-zero-on-changes"
   },
   "devDependencies": {
+    "@babel/core": "^7.18.6",
+    "@storybook/addon-actions": "^6.5.9",
+    "@storybook/addon-essentials": "^6.5.9",
+    "@storybook/addon-interactions": "^6.5.9",
+    "@storybook/addon-links": "^6.5.9",
+    "@storybook/builder-vite": "^0.1.38",
+    "@storybook/html": "6.5.9",
+    "@storybook/testing-library": "^0.0.13",
+    "babel-loader": "^8.2.5",
+    "chromatic": "^6.7.0",
     "live-server": "^1.2.2",
     "npm-run-all": "^4.1.5",
-    "tailwindcss": ">=3.0.0"
+    "tailwindcss": ">=3.0.0",
+    "vite": "^2.9.13"
   },
   "peerDependencies": {
     "tailwindcss": ">=3.0.0"
@@ -41,5 +58,8 @@
     {
       "registry": "https://npm.pkg.github.com"
     }
-  ]
+  ],
+  "dependencies": {},
+  "readme": "ERROR: No README data found!",
+  "_id": "@grass-kit/tailwind@0.0.7"
 }

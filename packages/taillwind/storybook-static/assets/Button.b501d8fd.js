@@ -1,0 +1,2 @@
+const b=({primary:t=!1,size:n="medium",backgroundColor:e,label:r,onClick:s})=>{const o=document.createElement("button");o.type="button",o.innerText=r,o.addEventListener("click",s);const a=t?"storybook-button--primary":"storybook-button--secondary";return o.className=["storybook-button",`storybook-button--${n}`,a].join(" "),o.style.backgroundColor=e,o};export{b as c};
+//# sourceMappingURL=Button.b501d8fd.js.map

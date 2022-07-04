@@ -29,7 +29,7 @@
     "postpublish": "npm-multi-publish",
     "start": "vite --host",
     "storybook": "start-storybook -p 6002",
-    "chromatic": "npx chromatic --project-token=b944a456a840"
+    "chromatic": "npx chromatic --project-token=15a94248d72e --exit-zero-on-changes"
   },
   "devDependencies": {
     "@grass-kit/tailwind": "^0.0.7",
@@ -51,6 +51,7 @@
     "@storybook/preview-web": "^6.5.9",
     "@storybook/web-components": "^6.5.9",
     "autoprefixer": "^10.4.2",
+    "chromatic": "^6.7.0",
     "eslint": "^8.8.0",
     "eslint-config-galex": "^3.6.3",
     "lit": "^2.1.2",
