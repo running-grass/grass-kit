@@ -24,3 +24,9 @@ export const 次要按钮 = Template.bind({});
 次要按钮.args = {
   label: '次要按钮',
 };
+
+
+export const 禁用状态 = Template.bind({});
+禁用状态.args = {
+  label: '次要按钮',
+};

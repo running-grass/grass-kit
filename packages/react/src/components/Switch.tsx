@@ -1,7 +1,7 @@
 import React from 'react';
 import { GrassSwitch } from '@grass-kit/web-component'
 
-import {createComponent, EventName} from '@lit-labs/react';
+import { createComponent, EventName } from '@lit-labs/react';
 
 export const Switch = createComponent(
   React,

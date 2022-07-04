@@ -4,6 +4,8 @@
     "node": ">=16"
   },
   "scripts": {
+    "build-storybook": "build-storybook",
+    "storybook": "start-storybook -p 6006",
     "chromatic": "npx chromatic --project-token=b944a456a840"
   },
   "dependencies": {
@@ -11,10 +13,13 @@
   },
   "name": "grass-kit",
   "devDependencies": {
+    "@storybook/addon-essentials": "^6.5.9",
+    "@storybook/core-common": "^6.5.9",
+    "@storybook/html": "^6.5.9",
     "chromatic": "^6.6.4",
     "npm-multi-publish": "^2.2.0"
   },
   "storybook": {
-    "url": "https://your-published-url.chromatic.com"
+    "url": "https://master--62bd4081cc758b9332a3687a.chromatic.com/"
   }
 }
